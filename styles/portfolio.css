@@ -153,3 +153,9 @@ main {
     font-size: 30px;
     font-weight: 700;
 }
+
+@media screen and (max-width: 576px){
+    .skills-container {
+        flex-direction: column;
+    }
+}
